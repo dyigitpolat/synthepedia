@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Synthepedia: Synthetic Encyclopedia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>Welcome to Synthepedia</h1>
+    <form method="post">
+      <label for="text">What do you want to know about?: </label>
+      <input type="text" id="text" name="text">
+      <br><br>
+      <input type="submit" value="Search">
+    </form>
+  </body>
+</html>
